@@ -1,0 +1,22 @@
+-- Code
+module Anothertest where
+
+data Foo = Bar -- Normal comments in code won't be affected
+
+-- Comment
+Blah blah blah
+
+-- Code
+f :: a -> a
+f x = x
+
+{-
+   Block comment in the code
+   section
+-}
+
+-- Comment
+This will be separated from the next comment
+
+-- Comment
+This will be separated from the previous comment

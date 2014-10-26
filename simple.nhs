@@ -1,0 +1,9 @@
+-- Code
+module Simple where
+
+data Bool = True
+      | False
+      deriving (Eq, Read, Show)
+
+-- Comment
+This is a comment
